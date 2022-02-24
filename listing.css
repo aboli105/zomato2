@@ -257,7 +257,7 @@ filter > input{
 }
 @media screen and (max-width:1030px){
     body{
-        background-color: rgb(175, 175, 175);
+        background-color: rgb(255, 255, 255);
     }
     .mainheading {
         height: 820px;
@@ -268,7 +268,7 @@ filter > input{
 }
 @media screen and (max-width:900px){
     body{
-        background-color: rgb(146, 146, 146);
+        background-color: rgb(251, 250, 250);
     }
     .mainheading {
         height: 820px;
