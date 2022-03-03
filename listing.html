@@ -2,23 +2,46 @@
     <head> 
         <title>Listing Page </title>
         <link rel="stylesheet" href="listing.css"  type="text/css">
+        <style>
+            body{
+                background-color: white;
+            }
+            .mydark{
+                background-color:black;
+                color: white;
+               
+            
+            }
+            
+        </style>
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+                mybody.classList.toggle("mydark")
+            }
+            
+        </script>
     </head>
 
         <body>
             <div>   
                 <header>
+                    <button onclick="changeMode()" style="margin-top:1%;margin-left: 72%; color: #fff;         background-color: #1b2e50;
+                        border-color: #1e1b1b00;"  class="btn btn-danger"class="btn btn-danger">Dark Mode</button>
                     <div id="Name">
                         <h2  style="color: white; "> 
                            <a href="./index.html" style="color: #194873;"> ZOMATO</a>
                            
                         </H2>
+                        
 
                     </div>
+                   
                     <div id="social">
-                        
-                            <img src="./Images/instagram.png"alt="Instagram"class="Icon1">
-                            <img src="./Images/instagram.png"alt="youtube"class="Icon1">
-                           <img src="./Images/50-Best-Facebook-Logo-Icons-GIF-Transparent-PNG-Images-9.png"alt="facebook"class="icon1">
+                       
+                            <img src="./Images/youtube2.png"alt="Instagram"class="Icon1">
+                            <img src="./Images/inst.png"alt="youtube"class="Icon1">
+                           <img src="./Images/fb.png"alt="facebook"class="icon1">
                         
                         
                     </div>

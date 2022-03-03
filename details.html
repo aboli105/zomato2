@@ -3,19 +3,44 @@
         <title>Details Page </title>
         <link rel="stylesheet" href="./details.css"  type="text/css">
         <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+        <style>
+            body{
+                background-color: white;
+            }
+            .mydark{
+                background-color:black;
+                color: white;
+               
+            
+            }
+            
+        </style>
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+                mybody.classList.toggle("mydark")
+            }
+            
+        </script>
     </head>
 
         <body>
             <div>   
                 <header>
                     <div id="Name">
+                       
                         <h2  style="color: white; "> 
                            <a href="index.html" style="color: #194873;"> Home</a>
+                          
                            
                         </H2>
-
+                       
                     </div>
+                    <button onclick="changeMode()" style="margin-top:1%;margin-left: 72%; color: #fff;         background-color: #1b2e50;
+                    border-color: #1e1b1b00;"  class="btn btn-danger"class="btn btn-danger">Dark Mode</button>
+
                     <div id="social">
+                       
                         
                             <img src="./Images/instagram.png"alt="Instagram"class="Icon1">
                             <img src="./Images/youtube1.png"alt="youtube"class="Icon1">

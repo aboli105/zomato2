@@ -5,10 +5,29 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
        
         <link rel="stylesheet" href="home1.css"  type="text/css">
+        <style>
+            body{
+                background-color: white;
+            }
+            .mydark{
+                background-color:black;
+               
+            
+            }
+            
+        </style>
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+                mybody.classList.toggle("mydark")
+            }
+            
+        </script>
+        
        
         <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
     </head>
-    <body id="abc">
+    <body id="abc" >
        
         <div id="main">
             <nav class="navbar navbar-inverse">
@@ -17,12 +36,23 @@
                     <a class="navbar-brand" href="#">ZOMATO</a>
                   </div>
                   <ul class="nav navbar-nav">
+                      
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                 
                     <li><a href="#">Contact us</a></li>
+                    <li>
+                        <button onclick="changeMode()" style="margin-top: 7%; color: #fff;         background-color: #1b2e50;
+                        border-color: #1e1b1b00;"  class="btn btn-danger"class="btn btn-danger">Dark Mode</button>
+                       
+               
+                    </li>
+
+
+                    
                   </ul>
                   <div id="btn1">
+                     
                   <button type="button" class="btn btn-primary">Log In </button> </div>
                 </div>
               </nav>
@@ -310,7 +340,7 @@
           <div>
         
              <footer>
-                 <center><h4 style="margin-top: 2%;"> ©Developer Aboli Waghmare</h4></center>
+                 <center><h4 style="margin-top: 2%;color:black"> ©Developer Aboli Waghmare</h4></center>
                  <hr style="color: black;">
                  <div style="margin-left: 2%;" class="foot">
                 <div id="nm"> COMPANY</div>

@@ -9,6 +9,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #3336;
+
 }
 
 
@@ -17,8 +18,8 @@ header{
 
    
     position: absolute;
-
 }
+
 
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -51,8 +52,9 @@ header{
 }
 .navbar-nav {
     float: left;
-    margin-left: 50%;
+    margin-left: 44%;
 }
+.navbar-nav > 
 
 #Name {
     float: left;
@@ -84,7 +86,7 @@ a{
 }
 
 #search{
-    height: 400px;
+    height: 600px;
     
    
     background-repeat: no-repeat;
@@ -94,7 +96,7 @@ a{
    
 }
 .item > img{
-    height: 400px !important;
+    height: 600px !important;
     width:100%
     
 }
@@ -245,7 +247,7 @@ select{
     line-height: 2;
     color: grey;
     font-size: 18px;
-    margin-left: 1;
+    margin-left: 30px;
 }
 #tilecontainer{
     height: 180px;
@@ -339,7 +341,7 @@ select{
         font-weight: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 15px;
-        color: #6b6b74;
+        color: #1d1d1f;
     }
 #dev{
     display: inline-block;
@@ -436,6 +438,7 @@ select{
     #btn1 > .btn {
         margin-left: 90%;
         margin-top: -4%;
+        color:black;
     }
     footer {
         height: 230px;
