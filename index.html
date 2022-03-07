@@ -3,6 +3,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="home.js"></script>
        
         <link rel="stylesheet" href="home1.css"  type="text/css">
         <style>
@@ -28,8 +29,9 @@
         <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
     </head>
     <body id="abc" >
-       
+      
         <div id="main">
+
             <nav class="navbar navbar-inverse">
                 <div class="container-lg">
                   <div class="navbar-header">
@@ -59,18 +61,23 @@
 
         </div>
         <div id="search">
+       
+   
             <div id="Name">
                 
                 <div>
                     
                     <div id="myslider" class="carousel slide" data-ride="carousel">
+                       
                         <ol class="carousel-indicators">
                             <li data-target="#myslider" data-slide-to="0" class="active"></li>
                             <li data-target="#myslider" data-slide-to="1"></li>
                             <li data-target="#myslider" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
-                           
+                            <div id="coupn">
+                                <button onClick='closeCoupn()' style="margin-left: 96%;">&times;</button>
+                    </div>
                             
                             <div class="item active">
                              
@@ -83,8 +90,11 @@
                             <div class="item">
                                 <img src="./Images/free-food-spread-56688e7b5f9b583dc3f1c799.jpg" alt="a"/>
                             </div>
+                     
                             <div id="logo">
+                       
                                 <span> E!</span> </div>
+                               
                                 <div id="rest">
                                     Find The Best Restaurants Near Me
                             </div>
@@ -397,6 +407,9 @@
 
                  
                  </div>
+                 <script>
+                     window.onload='loadcoupn()'
+                 </script>
                  
 
                  
