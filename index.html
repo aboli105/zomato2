@@ -37,18 +37,30 @@
                   <div class="navbar-header">
                     <a class="navbar-brand" href="#">ZOMATO</a>
                   </div>
+                
+                
                   <ul class="nav navbar-nav">
                       
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                 
                     <li><a href="#">Contact us</a></li>
-                    <li>
-                        <button onclick="changeMode()" style="margin-top: 7%; color: #fff;         background-color: #1b2e50;
+                   
+                    <li> <button onclick="changeMode()" style="margin-top: 7%; color: #fff;         background-color: #1b2e50;
                         border-color: #1e1b1b00;"  class="btn btn-danger"class="btn btn-danger">Dark Mode</button>
                        
                
                     </li>
+                    <li>  <div class="geo">
+                     <img src="./Images/weather.png">
+                        <span id="weather"> </span>
+                        <span id="cityname"></span>
+                    </div> </li>
+                    <script src="home.js"></script>
+                    <script>
+                        window.onload= geolocation();
+                    </script>
+
 
 
                     
@@ -76,7 +88,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div id="coupn">
-                                <button onClick='closeCoupn()' style="margin-left: 96%;background-color: red;">&times;</button>
+                                <button onClick='closeCoupn()' style="margin-left: 96%;">&times;</button>
                     </div>
                             
                             <div class="item active">
